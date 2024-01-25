@@ -1,0 +1,7 @@
+sudo apt-get update
+sudo apt-get install python3-pip
+
+sudo pip3 install pandas
+sudo pip3 install sqlalchemy
+sudo pip3 install mysql-connector-python
+pip install pyarrow

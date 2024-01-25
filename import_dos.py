@@ -24,10 +24,9 @@ valor_variable = "2301"
 
 # Mapeo de nombres de archivos a nombres de tablas con valor_variable
 mapeo_archivos_tablas = {
-    f'{valor_variable} - Uno-Terceros.csv': 'unoterceros',
-    f'{valor_variable} - Uno-Clientes.csv': 'unoclientes',
-    f'{valor_variable} - Uno-Ent Dinamica Tercero.csv': 'unoentidadestercero',
-    f'{valor_variable} - Uno-Ent Dinamica Cliente.csv': 'unoentidadesclientes',
+    f'{valor_variable} - Dos-Caja.csv': 'doscaja_Pruebas',
+    f'{valor_variable} - Dos-Movimiento CxC.csv': 'dosmovimientocxc_Pruebas',
+    f'{valor_variable} - Dos-RC y otros ingresos.csv': 'dosrecibodecaja_Pruebas',
 }
 
 # Función para establecer la conexión a la base de datos
@@ -79,5 +78,5 @@ else:
 
 
 # Después de la importación, ejecutar el script de actualización
-script_actualizacion = 'updateuno.py'
+script_actualizacion = 'update_dos.py'
 subprocess.run(['python3', script_actualizacion])
