@@ -14,7 +14,7 @@ db_config = {
 carpeta_csv = '/home/meza/Descargas/'
 
 # Lista de nombres de tablas en la base de datos
-nombres_tablas = ['cuatrodoctoventascomercial_Pruebas', 'cuatromovimientos_Pruebas', 'cuatrodescuentos_Pruebas', 'cuatrocuotascxc_Pruebas']
+nombres_tablas = ['ochopsqcaja_Pruebas', 'ochopsqcuotascxc_Prueba', 'ochopsqmovtoventasservicios_Prueba', 'ochopsqdoctoventasservicios_Pruebas']
 
 # Función para establecer la conexión a la base de datos
 def conectar_a_mysql(db_config):
